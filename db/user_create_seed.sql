@@ -2,6 +2,6 @@
 -- the tests in case you delete users/cars the tests are expecting to see
 -- DROP TABLE IF EXISTS users;
 
-( 'John', 'Smith', 'John@Smith.com'),
-( 'Dave', 'Davis', 'Dave@Davis.com'),
-( 'Jane', 'Janis', 'Jane@Janis.com');
+INSERT INTO public.users VALUES(1, 'John', 'Smith', 'John@Smith.com'),
+INSERT INTO public.users VALUES(2, 'Dave', 'Davis', 'Dave@Davis.com'),
+INSERT INTO public.users VALUES(3, 'Jane', 'Janis', 'Jane@Janis.com');
